@@ -1,0 +1,67 @@
+[troll]
+path = "/usr/local/bin/troll"
+
+[csv]
+path = "dda_anti_tank.csv"
+zero_pad = 3
+precision = 2
+flush_to_zero = 0.01
+
+[runs.dda_full_power]
+path = "dda_full.t"
+args = { HitOn = 3, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 1 }
+
+[runs.dda_full_power_with_sautek]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 1 }
+
+[runs.dda_full_power_with_mephrit]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 1, FullPower = 1 }
+
+[runs.dda_full_power_with_triarch_stalker]
+path = "dda_full.t"
+args = { HitOn = 3, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 1 }
+
+[runs.dda_full_power_with_triarch_stalker_and_sautek]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 1 }
+
+[runs.dda_full_power_with_triarch_stalker_and_mephrit]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 3, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 1, FullPower = 1 }
+
+[runs.dda_low_power]
+path = "dda_full.t"
+args = { HitOn = 4, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_sautek_strat]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_move_and_shoot]
+path = "dda_full.t"
+args = { HitOn = 3, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_mephrit]
+path = "dda_full.t"
+args = { HitOn = 4, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 1, FullPower = 0 }
+
+[runs.dda_low_power_with_triarch_stalker]
+path = "dda_full.t"
+args = { HitOn = 4, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_triarch_stalker_and_sautek_strat]
+path = "dda_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_triarch_stalker_and_sautek]
+path = "dda_full.t"
+args = { HitOn = 3, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 0 }
+
+[runs.dda_low_power_with_triarch_stalker_and_mephrit]
+path = "dda_full.t"
+args = { HitOn = 4, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 1, FullPower = 0 }
+
+
+
