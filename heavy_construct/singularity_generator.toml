@@ -1,0 +1,34 @@
+[troll]
+path = "/usr/local/bin/troll"
+
+[csv]
+path = "heavy_construct_singularity_generator.csv"
+zero_pad = 3
+precision = 2
+flush_to_zero = 0.01
+
+[runs.singularity_generator]
+path = "construct_full.t"
+args = { HitOn = 3, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 1 }
+
+[runs.singularity_generator_with_sautek]
+path = "construct_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 0, FullPower = 1 }
+
+[runs.singularity_generator_with_mephrit]
+path = "construct_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 0, Mephrit = 1, FullPower = 1 }
+
+[runs.singularity_generator_with_triarch_stalker]
+path = "construct_full.t"
+args = { HitOn = 3, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 1 }
+
+[runs.singularity_generator_with_triarch_stalker_and_sautek]
+path = "construct_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, FullPower = 1 }
+
+[runs.singularity_generator_with_triarch_stalker_and_mephrit]
+path = "construct_full.t"
+args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 1, FullPower = 1 }
+
+
