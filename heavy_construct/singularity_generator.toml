@@ -1,5 +1,3 @@
-[troll]
-path = "/usr/local/bin/troll"
 
 [csv]
 path = "heavy_construct_singularity_generator.csv"
@@ -29,6 +27,7 @@ args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 0, Fu
 
 [runs.singularity_generator_with_triarch_stalker_and_mephrit]
 path = "construct_full.t"
+mmap_override = true
 args = { HitOn = 2, WoundOn = 4, SaveOn = 4, ReRollOneToHit = 1, Mephrit = 1, FullPower = 1 }
 
 
